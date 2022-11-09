@@ -26,25 +26,76 @@ html{
     width: 100%;
 }
 
+
+
+
+nav{
+    width: 1000px;
+}
+
+
+
+
 ul{
     display: flex;
-    margin-left: 80%;
+    margin-left: 480px;
     gap: 2rem;
     
 }
 
+
+.preceeding{
+    display: flex;
+    margin-left: 25%;
+    margin-top: -17%;
+    position: relative;
+    right: 7.5%;
+    width: 100%;
+}
+
+
+.para-sec{
+  padding-right: 10px;
+  position: relative;
+  left: 8%;
+}
+
+
+button{
+    color: white;
+    background-color: hwb(5 31% 5%);
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 13px 30px;
+    border:  hsl(5, 85%, 63%);
+}
+
+
+h1{
+    font-weight: 900;
+    color: black;
+   
+}
+
+
+
+
+
 li{
     list-style: none;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     color: rgb(90, 88, 88);
+   
 }
 
 
 .hero-container{
     display: flex;
     justify-content: center;
-    width: 100%;
+    
+
   
   
   
@@ -52,23 +103,61 @@ li{
 .mini{
     display: flex;
     padding: 20px;
- 
+    margin-right: 20%;
 }
 
 
 .img{
     display: flex;
-    margin-right: 10%;
-    width: 70%;
+    margin-left: 25%;
+    height: 30%;
+    margin-top: 17px;
+    width: 50%;
     position: relative;
   
 }
 
 
 .mini-container{
-    width: 330px;
+    width: 260px;
     height: 420px;
     padding: 20px;
     background: rgb(1, 1, 26);
     background-color: -webkit linear-gradient (to top hsl(240, 100%, 5%) , hsl(236, 13%, 42%) , hsl(233, 8%, 79%));
+}
+
+
+.move{
+    display: flex;
+    margin-top: 8%;
+    margin-left: 15%;
+    width: 1300px;
+
+}
+
+.one{
+    margin-right: 6%;
+    
+   
+}
+
+.two{
+    margin-left: 18%;
+    padding-right: 25px; 
+}
+
+
+.three{
+    margin-left: 18%;
+    padding-left: 25x;
+}
+
+.retro{
+    margin-left: 6.5%;
+    position: absolute;
+    bottom: -23%;
+    width: 200px;
+    
+  
+   
 }
