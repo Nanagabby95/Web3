@@ -21,6 +21,34 @@ html{
     padding: 30px;
 }
 
+
+.web-img{
+    width:600px;
+    height:60%;
+}
+
+.one{
+    font-weight: bold; 
+    color: hsl(35, 77%, 62%);
+    margin-top: 1%;
+    font-size: 25px;
+}
+
+
+.mini-p{
+    font-size: 11px; 
+    padding-bottom: 20px;
+}
+
+
+
+
+p{
+    font-size: 12px;
+    color: gray;
+    font-weight: 400;
+}
+
 .div-container{
     display: flex;
     width: 100%;
@@ -31,6 +59,7 @@ html{
 
 nav{
     width: 1000px;
+    padding-top: 25px;
 }
 
 
@@ -47,7 +76,7 @@ ul{
 .preceeding{
     display: flex;
     margin-left: 25%;
-    margin-top: -17%;
+    margin-top: -14%;
     position: relative;
     right: 7.5%;
     width: 100%;
@@ -55,31 +84,40 @@ ul{
 
 
 .para-sec{
-  padding-right: 10px;
-  position: relative;
-  left: 8%;
+    margin-top: 3%;
+    padding-right: 10px;
+    position: relative;
+    left: 9%;
 }
+
+
 
 
 button{
     color: white;
     background-color: hwb(5 31% 5%);
     font-size: 10px;
-    letter-spacing: 2px;
+    letter-spacing: 2.5px;
     font-weight: bold;
     padding: 13px 30px;
     border:  hsl(5, 85%, 63%);
+    margin-top: 8%;
 }
 
 
 h1{
     font-weight: 900;
     color: black;
+    font-size: 40px;
+    margin-bottom: 4%;
    
 }
 
 
-
+.bright{
+    margin-top: 2%;
+    margin-left: 1%;
+}
 
 
 li{
@@ -119,9 +157,10 @@ li{
 
 
 .mini-container{
-    width: 260px;
-    height: 420px;
+    width: 230px;
+    height: 340px;
     padding: 20px;
+    color: white;
     background: rgb(1, 1, 26);
     background-color: -webkit linear-gradient (to top hsl(240, 100%, 5%) , hsl(236, 13%, 42%) , hsl(233, 8%, 79%));
 }
@@ -129,35 +168,32 @@ li{
 
 .move{
     display: flex;
-    margin-top: 8%;
-    margin-left: 15%;
-    width: 1300px;
+    margin-top: 3%;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 
 }
 
-.one{
-    margin-right: 6%;
-    
+.move h4{
+color: black;
+font-size: 15px;
+font-weight: 3rem;
+margin-bottom: 3%;
+}
+
+.move h2{
+    margin-bottom: 3%;
+}
+
+
+.child{
+    display: inline-block;
    
 }
 
-.two{
-    margin-left: 18%;
-    padding-right: 25px; 
-}
 
-
-.three{
-    margin-left: 18%;
-    padding-left: 25x;
-}
-
-.retro{
-    margin-left: 6.5%;
-    position: absolute;
-    bottom: -23%;
-    width: 200px;
-    
-  
-   
+.games{
+    width: 80px;
+    height: 110px;
 }
