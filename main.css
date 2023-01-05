@@ -16,9 +16,7 @@ html{
 
 
 .logo{
-    display: flex;
-    margin-left: 20%;
-    padding: 30px;
+    width: 50px;
 }
 
 
@@ -58,36 +56,55 @@ p{
 
 
 nav{
-    width: 1000px;
-    padding-top: 25px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
 }
+
+
 
 
 
 
 ul{
     display: flex;
-    margin-left: 480px;
     gap: 2rem;
     
+}
+
+ul li a{
+    color: gray;
+    text-decoration: none;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 .preceeding{
     display: flex;
-    margin-left: 25%;
-    margin-top: -14%;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
     position: relative;
-    right: 7.5%;
-    width: 100%;
+    align-items: center;
+    left: 3em;
+    bottom: 10em;
+
 }
 
 
 .para-sec{
-    margin-top: 3%;
+    /* margin-top: 3%;
     padding-right: 10px;
     position: relative;
-    left: 9%;
+    left: 9%; */
 }
 
 
@@ -115,8 +132,8 @@ h1{
 
 
 .bright{
-    margin-top: 2%;
-    margin-left: 1%;
+    /* margin-top: 2%;
+    margin-left: 1%; */
 }
 
 
@@ -131,28 +148,29 @@ li{
 
 .hero-container{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
     
 
   
   
   
 }
-.mini{
+.mini-container{
     display: flex;
-    padding: 20px;
-    margin-right: 20%;
 }
 
 
-.img{
+.hero-container-img{
     display: flex;
-    margin-left: 25%;
-    height: 30%;
-    margin-top: 17px;
-    width: 50%;
-    position: relative;
   
+}
+
+
+.hero-container-img img{
+    width: 60vw;
+    height: 50vh;
 }
 
 
@@ -162,16 +180,18 @@ li{
     padding: 20px;
     color: white;
     background: rgb(1, 1, 26);
-    background-color: -webkit linear-gradient (to top hsl(240, 100%, 5%) , hsl(236, 13%, 42%) , hsl(233, 8%, 79%));
+    background-color: -webkit linear-gradient (to top hsl(240, 100%, 5%) ,
+    hsl(236, 13%, 42%) , hsl(233, 8%, 79%));
 }
 
 
 .move{
     display: flex;
-    margin-top: 3%;
+    position: relative;
+    bottom: 7em;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 2em;
 
 }
 

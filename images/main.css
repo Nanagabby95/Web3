@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&family=IBM+Plex+Sans&family=Inter:wght@400;800;900&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&family=IBM+Plex+Sans&family=Inter:wght@400;700;800;900&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&family=IBM+Plex+Sans&family=Inter:wght@400;700;800;900&family=Poppins&display=swap')
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Inter', sans-serif;
+    color: #c0bbbb;
+    max-width: 1440px;
+}
+
+
+.logo{
+    display: flex;
+    margin-left: 20%;
+    padding: 30px;
+}
+
+.div-container{
+    display: flex;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    margin-left: 80%;
+    gap: 2rem;
+    
+}
+
+li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(90, 88, 88);
+}
+
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  
+  
+  
+}
+.mini{
+    display: flex;
+    padding: 20px;
+ 
+}
+
+
+.img{
+    display: flex;
+    margin-right: 10%;
+    width: 70%;
+    position: relative;
+  
+}
+
+
+.mini-container{
+    width: 330px;
+    height: 420px;
+    padding: 20px;
+    background: rgb(1, 1, 26);
+    background-color: -webkit linear-gradient (to top hsl(240, 100%, 5%) , hsl(236, 13%, 42%) , hsl(233, 8%, 79%));
+}
