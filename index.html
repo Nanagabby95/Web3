@@ -6,18 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nov. News</title>
     <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav class="nav-container">
                     <img src="/images/logo.svg" alt="logo" class="logo">
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/">New</a></li>
-                        <li><a href="/">Popular</a></li>
-                        <li><a href="/">Trending</a></li>
-                        <li><a href="/">Categories</a></li>
-                    </ul>
+                    <ul id="sidemenu">
+                        <li><a href="https://sensoriumxr.com/articles/top-web3-trends">Home</a></li>
+                        <li><a href="https://coingeek.com/?gclid=CjwKCAiAjPyfBhBMEiwAB2CCIlSUViae3JVOi91w610RAirJjSL-qkxiO-Vqcc3RcdM13UnOVFNw6hoCHXMQAvD_BwE">New</a></li>
+                        <li><a href="https://cryptoslate.com/web3/">Popular</a></li>
+                        <li><a href="https://sensoriumxr.com/articles/top-web3-trends">Trending</a></li>
+                        <li><a href="https://www.forbes.com/sites/bernardmarr/2022/01/24/what-is-web3-all-about-an-easy-explanation-with-examples/">Categories</a></li>
+                        <ion-icon id="closemenu" name="close" onclick="closemenu()"></ion-icon>
+            </ul>
+            <ion-icon class="menu-icon" id="icon" name="menu" onclick="openmenu()"></ion-icon>
+                   
                 </div>
             </div>
         </nav>
@@ -35,14 +39,14 @@
                 <div class="mini">
                 <h1 class="one">New</h1>
                 <h4>Hydrogen VS Electric Cars</h4>
-                <p>Will hydrogen-fueled cars catch up <br> to EVs?</p> <hr>
+                <a href="https://www.linde-engineering.com/en/plant-components/hydrogen-refueling-technologies/index.html?creative=641417644966&keyword=hydrogen%20fuel%20cars&matchtype=e&network=g&device=c&utm_medium=paid&utm_source=Google+Ads&utm_campaign=Fueltech_MultipleGoals&utm_term=hydrogen%20fuel%20cars&gclid=CjwKCAiAjPyfBhBMEiwAB2CCIj7oKgtnY_BUQ_nGc_Ookmzw2i0WpKhDUqDF53cVyjrmzzt33kD_XBoCusQQAvD_BwE"><p>Will hydrogen-fueled cars catch up <br>to EVs?</p></a>
 
                 <h4>The Downsides of  Artistry</h4>
-                <p>What are the possible adverse effects of <br> on-demage AI image generation</p> <hr>
+                <a href="https://www.tandfonline.com/doi/abs/10.1080/00128775.2022.2064307"><p>What are the possible adverse effects of <br> on-demage AI image generation</p></a>
 
              
-                <h4>Is VC Funding Drying Up?</h4>
-                <p>Private funding by VC firms is down 50% <br>YOY. We take a look at what that means </p>
+               <h4>Is VC Funding Drying Up?</h4>
+                <a href="https://www.fastcompany.com/90830822/vc-funding-is-drying-up-how-founders-can-fundraise-regardless#:~:text=Aspiring%20entrepreneurs%20are%20facing%20a,they%20are%20willing%20to%20make."><p>Private funding by VC firms is down 50% <br>YOY. We take a look at what that means </p>
                 </div>
             
             </div>  
@@ -54,13 +58,12 @@
 
            <div class="para-sec">
             <p>We dive into the next evolution of the web that <br> claims to put the power of the platforms back <br> into the hands of the people. But is it really <br>fulfiling its promise?</p>
-            <button> READ MORE</button>
+            <a href="https://www.forbes.com/sites/bernardmarr/2022/01/24/what-is-web3-all-about-an-easy-explanation-with-examples/"><button> READ MORE</button></a>
            </div>
         </div>
     </div>
 
         <div class="move">
-
             <div class="child">
             <img src="./images/image-retro-pcs.jpg" alt="" class="games">
             </div>
@@ -76,7 +79,7 @@
             </div>
 
             <div class="child">
-            <h2>01</h2>
+            <h2>02</h2>
             <h4>Reviving Retro Pcs</h4>
             <p>What happens when old PCs <br>are given modern upgrades?</p>
             </div>
@@ -86,7 +89,7 @@
             </div>
 
             <div class="child">
-            <h2>01</h2>
+            <h2>03</h2>
             <h4>Reviving Retro Pcs</h4>
             <p>What happens when old PCs <br>are given modern upgrades?</p>
             </div>
@@ -94,5 +97,25 @@
 
         </div>
 </div>
+
+<script>
+    $(document).ready(function(){
+        $('#icon').click(function(){
+            $('ul').toggleClass('show');
+        });
+    });
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu() {
+        sidemenu.style.right= "0";
+    }
+    function closemenu() {
+        sidemenu.style.right= "-200px";
+    }
+</script>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </body>
 </html>
